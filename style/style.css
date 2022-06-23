@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+body {
+    margin:0px;
+    background-image: url("/img/2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:'roboto flex';
+    background-position: center;
+}
+/* .h {
+    width:50%;
+    float:left;
+} */
+h1 {
+    background-color: black;
+    padding: 25px;
+    color:white;
+    margin: 0px;
+    font-size: 40px;
+    font-family: inherit;
+}
+#list {
+    margin: 25px;
+}
+a {
+    color:white;
+    text-decoration: none;
+}
+h2 {
+    color:white;
+    font-size:20px;
+    padding-bottom: 10px;
+}
+li {
+    max-width: max-content;
+    list-style-type: none;
+    padding-bottom:7px;
+    cursor: grab;
+}
+li:hover {
+    list-style-type: square;
+    color:white;
+
+}
+#external_link {
+    background-color:rgb(0,0,0,0.5);
+    margin:0px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+hr {
+    margin-top: 0px;
+    margin-bottom:5px;
+}
+#github {
+    filter:invert(1);
+}
+img {
+    padding: 10px;
+}
+#para_home {
+    color:white;
+    font-size:15px;
+    line-height: 25px;
+    font-weight:100;
+}
+#introduction {
+    background-color:rgb(0,0,0,0.2);
+    font-family:'roboto flex';
+    margin: 20px;
+    padding:15px;
+
+}
+table {
+    align-items:initial;
+}
+.courses {
+    background-color: rgb(0,0,0,0.2);
+    flex:50%;
+    height:max-content;
+    margin:1.5%;
+    padding:20px;
+    color:white;
+    line-height: 25px;
+    font-size:15px;
+}
+table {
+    border-collapse:collapse;
+}
+.cont {
+    display:flex;
+    min-height:max-content;
+}
+footer {
+    margin:20px 0px 0px 0px;
+    height:auto;
+    min-height:fit-content;
+    max-height:max-content;
+    /* padding:0% 50% 0% 50%; */
+    padding-bottom:35px;
+    padding-top:30px;
+    text-align:center;
+    background-color:rgb(0,0,0,0.8);
+    color:white;
+    vertical-align:middle;
+}
+.foot {
+    min-width:max-content;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.login {
+    display:block;
+    background-color:rgb(0,0,0,0.5);
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left:45%
+    /* padding-block: 50%; */
+    /* object-position: center; */
+    /* padding-left:50%; */
+}
+.login input{
+    margin:10px;
+    background-color: transparent;
+    border:1px solid white;
+    /* object-position: center; */
+}
+.logintext {
+    margin:10px;
+    color:white;
+
+}
+.login input::placeholder{
+    color:white;
+    padding-left: 3px;
+    letter-spacing: 1px;
+    font-weight:100;
+    padding:3px;
+}
